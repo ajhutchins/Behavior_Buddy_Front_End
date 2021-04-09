@@ -167,9 +167,6 @@ class App extends Component {
   }
 
 
-  // const { query } = this.state;
-  // [shouldShow, setShouldShow] = useState(true);
-
   render() {
 
     return (
@@ -184,7 +181,6 @@ class App extends Component {
         <Text style={styles.searchText}>The App that puts the ABA world into your pocket! What should we learn about today?</Text>
 
         <TextInput
-          // data={this.state.behaviors}
           style={styles.input}
           type='text'
           value={this.state.query}
@@ -205,10 +201,8 @@ class App extends Component {
         <Text style={styles.header1}>Full BehaviorBuddy Database:</Text>
 
         <FlatList
-          // data={this.state.behaviors}
           data={this.state.behaviors && this.state.behaviors.length > 0 ? this.state.behaviors : this.state.data}
           keyExtractor={(item) => `item-${item.title}`}
-          // keyExtractor={(id, index) => index.toString()}
           renderItem={({ item }) => (
             <Text style={styles.indexCards}>
               <Text style={styles.title}>
@@ -249,9 +243,9 @@ class App extends Component {
 
 
                 </Text>
-                : null}
+                : ''}
               <br />
-              <Button title='Hide Info' onPress={this.hideAndShow} />
+              <Button title="Don't Show Info" onPress={this.hideAndShow} />
             </Text>
 
           )}
