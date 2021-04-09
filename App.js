@@ -25,7 +25,7 @@ let cancel = ''
 if (process.env.NODE_ENV === 'development') {
   baseURL = 'http://localhost:3003'
 } else {
-  baseURL = 'your heroku backend url here, bub'
+  baseURL = 'https://secure-hollows-11303.herokuapp.com'
 }
 
 // const returnObjectData = this.props.data.map(function(data, idx) {
