@@ -63,7 +63,7 @@ The project tries to follow the coding style guide provided by AirBnb.
 
 1. Publication Manual of the American Psychological Association, 6th Edition. ISBN: 10:1-4338-0561-8.
 2. Cooper, J. O., Heron, T. E., & Heward, W. L. (2019). Applied Behavior Analysis (3rd Edition). Hoboken, NJ: Pearson Education.
-3. https://reactnative.dev/docs/getting-started
+3. [React Native Docs](https://reactnative.dev/docs/getting-started)
 
 ## Design Documentation
 
