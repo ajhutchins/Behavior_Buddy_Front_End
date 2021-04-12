@@ -1,5 +1,7 @@
 # Behavior_Buddy_Front_End
 
+![alt text](./Behavior_Buddy.png)
+
 ## Table of Contents
 
 - [Description](#Description)
