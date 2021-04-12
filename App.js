@@ -14,9 +14,6 @@ import {
 } from 'react-native';
 import SearchInput, { createFilter } from 'react-native-elements'
 import axios from 'axios';
-// import behaviors from '../Behavior_Buddy_API/controllers/behaviors'
-
-// let behaviorArray = require('../Behavior_Buddy_API/controllers/behaviors')
 
 let baseURL = ''
 
@@ -28,16 +25,10 @@ if (process.env.NODE_ENV === 'development') {
   baseURL = 'https://secure-hollows-11303.herokuapp.com'
 }
 
-// const returnObjectData = this.props.data.map(function(data, idx) {
-//   return <Text key={idx}>{data.title}</Text>
-// })
-
 const behaviorsURL = 'http://localhost:3003/behaviors/'
 const behaviorsFind = 'http://localhost:3003/behaviors/find/'
 
 const KEYS_TO_FILTERS = ['title', 'definition'];
-// const shouldShow = useState(true)
-// const SetShouldShow = useState(true)
 
 class App extends Component {
 
@@ -51,15 +42,6 @@ class App extends Component {
     isHidden: false,
     content: true,
   }
-
-
-  // async componentDidMount() {
-  //   const { data: behaviors } = await axios.get(
-  //       behaviorsURL
-  //   );
-  //   this.setState({ behaviors });
-  // }
-
 
   componentDidMount() {
     this.getBehaviors();
@@ -166,11 +148,9 @@ class App extends Component {
     }
   }
 
-
   render() {
 
     return (
-
 
       <View style={styles.container}>
 
@@ -214,34 +194,27 @@ class App extends Component {
                   <Text style={styles.words}>
                     {'Definition:'}
                   </Text>
-
                   <Text>
                     {' '}
                     {item.definition}
                     <br />
                   </Text>
-
                   <Text style={styles.words}>
                     {'Methods:'}
                   </Text>
-
                   <Text>
                     {' '}
                     {item.methods}
                     <br />
                   </Text>
-
                   <Text style={styles.words}>
                     {'Resources:'}
                   </Text>
-
                   <Text>
                     {' '}
                     {item.resources}
                     <br />
                   </Text>
-
-
                 </Text>
                 : ''}
               <br />
@@ -257,7 +230,6 @@ class App extends Component {
   }
 }
 
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -271,7 +243,7 @@ const styles = StyleSheet.create({
     fontSize: 36,
     marginTop: 100,
     textShadowColor: 'rgba(0, 0, 0, 0.75)',
-    textShadowOffset: {width: -1, height: 1},
+    textShadowOffset: { width: -1, height: 1 },
     textShadowRadius: 2,
   },
   indexCards: {
@@ -283,7 +255,6 @@ const styles = StyleSheet.create({
     padding: 40,
     margin: 16,
     textAlign: 'center',
-    // listStyleType: 'none',
     width: 300,
 
   },
@@ -334,7 +305,6 @@ const styles = StyleSheet.create({
     padding: 40,
     margin: 16,
     textAlign: 'center',
-    // listStyleType: 'none',
     width: 300,
   },
   header1: {
@@ -344,6 +314,5 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   }
 });
-
 
 export default App;
