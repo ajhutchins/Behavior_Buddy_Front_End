@@ -189,7 +189,7 @@ class App extends Component {
                 {item.title}
               </Text>
               <br />
-              { this.state.content ?
+              { !this.state.content ?
                 <Text>
                   <Text style={styles.words}>
                     {'Definition:'}
@@ -216,7 +216,7 @@ class App extends Component {
                     <br />
                   </Text>
                 </Text>
-                : ''}
+                : this.state.content }
               <br />
               <Button title="Don't Show Info" onPress={this.hideAndShow} />
             </Text>
