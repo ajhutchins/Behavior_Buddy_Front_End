@@ -218,7 +218,7 @@ class App extends Component {
                 </Text>
                 : this.state.content }
               <br />
-              <Button title="Don't Show Info" onPress={this.hideAndShow} />
+              <Button title="Show Info" onPress={this.hideAndShow} />
             </Text>
 
           )}
