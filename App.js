@@ -261,7 +261,7 @@ class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#DBF3FA',
     alignItems: 'center',
     justifyContent: 'center',
     fontFamily: 'San Francisco',
@@ -272,6 +272,7 @@ const styles = StyleSheet.create({
     marginTop: 100,
   },
   indexCards: {
+    backgroundColor: '#fff',
     borderRadius: 2,
     borderColor: 'black',
     borderWidth: 1,
@@ -296,6 +297,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   input: {
+    backgroundColor: '#fff',
     borderRadius: 2,
     borderColor: 'black',
     borderWidth: 1,
