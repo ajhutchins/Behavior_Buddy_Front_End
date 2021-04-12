@@ -195,8 +195,8 @@ class App extends Component {
           {this.renderSearchReults()}
         </Text>
 
-        <Text style={styles.searchText}>-----------Search results will appear above-----------</Text>
-        <Text style={styles.searchText}>-------OR scroll through our full database below-------</Text>
+        <Text style={styles.searchText}>------Search results will appear above------</Text>
+        <Text style={styles.searchText}>--OR scroll through our full database below--</Text>
 
         <Text style={styles.header1}>Full BehaviorBuddy Database:</Text>
 
@@ -270,6 +270,9 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 36,
     marginTop: 100,
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+    textShadowOffset: {width: -1, height: 1},
+    textShadowRadius: 2,
   },
   indexCards: {
     backgroundColor: '#fff',
