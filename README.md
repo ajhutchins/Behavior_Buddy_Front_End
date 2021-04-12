@@ -22,7 +22,7 @@ This is a React Native application that contains a node.js backend database. The
 
 ## Link
 
-- [You can access our frontend React Native application here](https://github.com/ajhutchins/Behavior_Buddy)
+- [You can access our backend node.js API here](https://github.com/ajhutchins/Behavior_Buddy)
 
 ## Future Work
 
