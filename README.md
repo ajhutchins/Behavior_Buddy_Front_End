@@ -1,5 +1,7 @@
 # Behavior_Buddy_Front_End
 
+![alt text](./Behavior_Buddy.png)
+
 ## Table of Contents
 
 - [Description](#Description)
@@ -20,7 +22,7 @@ This is a React Native application that contains a node.js backend database. The
 
 ## Link
 
-- You can access our frontend React Native application here: https://github.com/ajhutchins/Behavior_Buddy
+- [You can access our backend node.js API here](https://github.com/ajhutchins/Behavior_Buddy)
 
 ## Future Work
 
@@ -45,7 +47,7 @@ You can fork this repo and run from node. You will need to set up the .env varia
 ## Built With
 
 - React Native
-- mongodb
+- MongoDB
 - node.js
 - express.js
 - cors
@@ -61,6 +63,7 @@ The project tries to follow the coding style guide provided by AirBnb.
 
 1. Publication Manual of the American Psychological Association, 6th Edition. ISBN: 10:1-4338-0561-8.
 2. Cooper, J. O., Heron, T. E., & Heward, W. L. (2019). Applied Behavior Analysis (3rd Edition). Hoboken, NJ: Pearson Education.
+3. [React Native Docs](https://reactnative.dev/docs/getting-started)
 
 ## Design Documentation
 
