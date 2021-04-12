@@ -47,7 +47,7 @@ You can fork this repo and run from node. You will need to set up the .env varia
 ## Built With
 
 - React Native
-- mongodb
+- MongoDB
 - node.js
 - express.js
 - cors
